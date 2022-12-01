@@ -1,0 +1,236 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: white;
+
+  padding: 30px 70px;
+}
+img {
+  max-width: 100%;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+  width: 250px;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1320px;
+}
+
+.nav__list li {
+  list-style: none;
+
+  justify-content: space-between;
+  display: inline-block;
+  padding: 0 15px;
+  text-transform: uppercase;
+}
+
+.nav__link {
+  padding: 30px;
+  color: rgb(234, 126, 38);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.nav__link:hover {
+  opacity: 0.69;
+}
+
+#intro-section {
+  background-color: white;
+  padding: 5rem 0 0 0;
+}
+
+.nutri {
+  margin: 20px;
+  width: 700px;
+  height: 400px;
+}
+.container__titulo {
+  padding: 35px;
+  text-align: center;
+  color: rgb(224, 149, 92);
+}
+
+.container__equipo {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 5px;
+}
+
+.dowload__titulo2 {
+  padding: 40px;
+  text-align: center;
+  text-decoration: solid;
+  color: rgb(224, 149, 92);
+}
+.dowload__subtitulo2 {
+  padding: 30px;
+  text-align: center;
+  color: rgb(129, 224, 186);
+}
+.dowload__lista {
+  padding: 30px;
+  margin: 5px;
+  color: rgb(123, 197, 167);
+}
+
+.formu {
+  padding: 50px;
+  text-align: center;
+  text-decoration: underline;
+  color: antiquewhite;
+}
+footer {
+  font-size: 1rem;
+  padding: 30px;
+  background-color: rgb(123, 197, 167);
+}
+
+.footer-sm a {
+  color: white;
+}
+.footer-sm-icons {
+  text-align: right;
+}
+
+.sobre {
+  text-align: center;
+  color: rgb(224, 149, 92);
+}
+
+.parrafo {
+  padding: 50px;
+  text-align: center;
+}
+
+.grupo {
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  padding: 70px;
+  text-align: center;
+}
+
+.version {
+  padding: 30px;
+  text-align: center;
+  color: rgb(224, 149, 92);
+}
+
+.vianda__titulo {
+  padding: 30px;
+  text-align: center;
+  color: rgb(224, 149, 92);
+  text-transform: uppercase;
+}
+.vianda__descripcion {
+  padding: 70px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+.vianda__titulo2 {
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(189, 224, 163);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 3rem;
+}
+
+.vianda0 {
+  height: 400px;
+  padding: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  padding: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  display: inline-block;
+}
+
+.card__titulo {
+  margin: 30px;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(189, 224, 163);
+}
+
+.contacto {
+  margin: 30px;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(189, 224, 163);
+}
+.servicios__titulo {
+  margin: 30px;
+  text-align: left;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(189, 224, 163);
+}
+
+.servicios__parrafo {
+  margin: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-block;
+}
+
+/*media queries*/
+@media (min-width: 768px) {
+  .container {
+    width: 80%;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: auto;
+    position: relative;
+  }
+
+  .nav__list {
+    display: flex;
+    margin: 0;
+  }
+
+  .nav__link {
+    margin: 0 0 0 1.5rem;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nutri {
+    margin-top: 0;
+  }
+}
